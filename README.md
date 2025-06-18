@@ -77,13 +77,11 @@ Basic unit tests are in tests/. To run:
 
 # 📌 TODO
 
-  - [ ] Add support for Web scraping secure sources
+- Investigate upwards movement.
 
-  - [ ] Implement caching of flight analysis
+- Investigate circling diameter
 
-  - [ ] Add user-upload support in Streamlit
-
-  - [ ] Improve database schema with pilot metadata
+- Plot heatmap of thermals
 
 
 

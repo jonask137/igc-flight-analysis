@@ -8,6 +8,45 @@ from sqlalchemy.orm import sessionmaker
 from db.models import Base, AirfieldReport, Device, Flight, IGCFile
 from datetime import datetime
 
+def extract_latlon_from_igc(path):
+    coords = []
+
+    def convert_lat_lon(value, direction):
+        try:
+            if direction in ['N', 'S']:
+                degrees = int(value[:2])
+                minutes = float(value[2:]) / 60000.0
+            else:
+                degrees = int(value[:3])
+                minutes = float(value[3:]) / 60000.0
+            coord = degrees + minutes
+            if direction in ['S', 'W']:
+                coord *= -1
+            return coord
+        except Exception:
+            return None
+
+    try:
+        with open(path, "r", encoding="utf-8") as file:
+            for line in file:
+                if not line.startswith("B"):
+                    continue
+                lat_raw = line[7:14]
+                lat_dir = line[14]
+                lon_raw = line[15:23]
+                lon_dir = line[23]
+
+                lat = convert_lat_lon(lat_raw, lat_dir)
+                lon = convert_lat_lon(lon_raw, lon_dir)
+
+                if isinstance(lat, float) and isinstance(lon, float):
+                    coords.append({"lat": lat, "lon": lon})
+    except Exception as e:
+        print(f"Error parsing IGC file {path}: {e}")
+    return coords
+
+
+
 # --- DB SETUP ---
 engine = create_engine("sqlite:///igc_flight_analysis.db")
 Session = sessionmaker(bind=engine)
@@ -59,3 +98,35 @@ else:
     st.info("No flights recorded for this selection.")
 
 session.close()
+
+
+st.write("### Flight Tracks on Map")
+
+# Let user pick flights to show on the map
+track_options = [f"{device.registration} {flight.start_time}-{flight.stop_time}" for flight, device, igc_file in flights]
+selected_tracks = st.multiselect("Select flights to show on map", track_options, default=track_options)
+
+map_points = []
+
+for (flight, device, igc_file), label in zip(flights, track_options):
+    if label not in selected_tracks or not igc_file:
+        continue
+
+    igc_path = Path("data") / igc_file.file_path
+    latlon = extract_latlon_from_igc(igc_path)
+
+    # Validate each point
+    for point in latlon:
+        if (
+            isinstance(point, dict)
+            and isinstance(point.get("lat"), float)
+            and isinstance(point.get("lon"), float)
+        ):
+            map_points.append(point)
+
+st.write("Map preview (first 5 points):", map_points[:5])
+
+if map_points:
+    st.map(map_points)
+else:
+    st.info("No track data available to display.")
