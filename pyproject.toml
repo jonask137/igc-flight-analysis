@@ -8,4 +8,6 @@ dependencies = [
     "matplotlib>=3.10.3",
     "numpy>=2.3.0",
     "pandas>=2.3.0",
+    "requests>=2.32.4",
+    "sqlalchemy>=2.0.41",
 ]
