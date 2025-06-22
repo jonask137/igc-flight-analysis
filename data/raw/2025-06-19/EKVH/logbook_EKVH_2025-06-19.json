@@ -1,0 +1,144 @@
+{
+  "a_day": "Thu",
+  "airfield": {
+    "code": "EKVH",
+    "country": "DK",
+    "elevation": 36,
+    "latlng": [
+      56.8469,
+      9.4586
+    ],
+    "name": "Vesthimmerland",
+    "time_info": {
+      "dawn": "03h21",
+      "noon": "13h24",
+      "sunrise": "04h28",
+      "sunset": "22h19",
+      "twilight": "23h26",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750360801,
+  "code": "EKVH",
+  "date": "2025-06-19",
+  "devices": [
+    {
+      "address": "DDEB7F",
+      "aircraft": "Arcus M",
+      "aircraft_type": 1,
+      "competition": "2W",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "D-KFMW",
+      "tracked": true
+    },
+    {
+      "address": "DD4EEE",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "X1",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XMF",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 9714,
+      "max_alt": 1048,
+      "max_height": 1012,
+      "start": "12h16",
+      "start_q": 29,
+      "start_tsp": 1750328173,
+      "stop": "14h58",
+      "stop_q": 29,
+      "stop_tsp": 1750337887,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 722,
+      "max_alt": 628,
+      "max_height": 592,
+      "start": "16h32",
+      "start_q": 28,
+      "start_tsp": 1750343565,
+      "stop": "16h44",
+      "stop_q": 28,
+      "stop_tsp": 1750344287,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 715,
+      "max_alt": 654,
+      "max_height": 618,
+      "start": "16h54",
+      "start_q": 29,
+      "start_tsp": 1750344864,
+      "stop": "17h06",
+      "stop_q": 28,
+      "stop_tsp": 1750345579,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 959,
+      "max_alt": 680,
+      "max_height": 644,
+      "start": "17h16",
+      "start_q": 28,
+      "start_tsp": 1750346180,
+      "stop": "17h32",
+      "stop_q": 29,
+      "stop_tsp": 1750347139,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 632,
+      "max_alt": 536,
+      "max_height": 500,
+      "start": "17h41",
+      "start_q": 29,
+      "start_tsp": 1750347690,
+      "stop": "17h52",
+      "stop_q": 29,
+      "stop_tsp": 1750348322,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 611,
+      "max_alt": 473,
+      "max_height": 437,
+      "start": "18h00",
+      "start_q": 29,
+      "start_tsp": 1750348824,
+      "stop": "18h10",
+      "stop_q": 29,
+      "stop_tsp": 1750349435,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKVH"
+  ]
+}

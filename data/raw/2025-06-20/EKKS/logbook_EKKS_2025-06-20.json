@@ -1,0 +1,60 @@
+{
+  "a_day": "Fri",
+  "airfield": {
+    "code": "EKKS",
+    "country": "DK",
+    "elevation": 40,
+    "latlng": [
+      55.25222,
+      12.06278
+    ],
+    "name": "Kongsted",
+    "time_info": {
+      "dawn": "03h31",
+      "noon": "13h14",
+      "sunrise": "04h30",
+      "sunset": "21h56",
+      "twilight": "22h56",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750454680,
+  "code": "EKKS",
+  "date": "2025-06-20",
+  "devices": [
+    {
+      "address": "D01EFB",
+      "aircraft": "Arcus M",
+      "aircraft_type": 1,
+      "competition": "KJ",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XKJ",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": null,
+      "duration_expected": 28994,
+      "max_alt": null,
+      "max_height": null,
+      "start": "15h21",
+      "start_delta": 15828,
+      "start_q": 27,
+      "start_tsp": 1750425686,
+      "stop": null,
+      "stop_q": null,
+      "stop_tsp": null,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    }
+  ],
+  "rnames": [
+    "EKSL"
+  ]
+}

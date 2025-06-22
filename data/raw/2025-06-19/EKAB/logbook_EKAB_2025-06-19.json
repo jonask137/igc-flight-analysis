@@ -1,0 +1,125 @@
+{
+  "a_day": "Thu",
+  "airfield": {
+    "code": "EKAB",
+    "country": "DK",
+    "elevation": 37,
+    "latlng": [
+      56.01195,
+      9.0125
+    ],
+    "name": "Arnborg",
+    "time_info": {
+      "dawn": "03h34",
+      "noon": "13h26",
+      "sunrise": "04h37",
+      "sunset": "22h14",
+      "twilight": "23h17",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750360797,
+  "code": "EKAB",
+  "date": "2025-06-19",
+  "devices": [
+    {
+      "address": "DDD380",
+      "aircraft": "PA-25 Pawnee",
+      "aircraft_type": 2,
+      "competition": "IC",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "LN-EIC",
+      "tracked": true
+    },
+    {
+      "address": "D01616",
+      "aircraft": "AS 33",
+      "aircraft_type": 1,
+      "competition": "PE",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-PXE",
+      "tracked": true
+    },
+    {
+      "address": "DDEBC9",
+      "aircraft": "Discus 2t",
+      "aircraft_type": 1,
+      "competition": "AA",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XUP",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 297,
+      "max_alt": 489,
+      "max_height": 452,
+      "start": "11h29",
+      "start_q": 27,
+      "start_tsp": 1750325350,
+      "stop": "11h34",
+      "stop_q": 27,
+      "stop_tsp": 1750325647,
+      "tow": null,
+      "towing": true,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 15507,
+      "max_alt": 1287,
+      "max_height": 1250,
+      "start": "11h29",
+      "start_q": 27,
+      "start_tsp": 1750325353,
+      "stop": "15h47",
+      "stop_q": 26,
+      "stop_tsp": 1750340860,
+      "tow": 0,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 266,
+      "max_alt": 510,
+      "max_height": 473,
+      "start": "13h10",
+      "start_q": 27,
+      "start_tsp": 1750331450,
+      "stop": "13h15",
+      "stop_q": 27,
+      "stop_tsp": 1750331716,
+      "tow": null,
+      "towing": true,
+      "warn": false
+    },
+    {
+      "device": 2,
+      "duration": 7652,
+      "max_alt": 1265,
+      "max_height": 1228,
+      "start": "13h10",
+      "start_q": 27,
+      "start_tsp": 1750331450,
+      "stop": "15h18",
+      "stop_q": 24,
+      "stop_tsp": 1750339102,
+      "tow": 2,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKAB2"
+  ]
+}

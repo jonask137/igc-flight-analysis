@@ -1,0 +1,184 @@
+{
+  "a_day": "Fri",
+  "airfield": {
+    "code": "EKGL",
+    "country": "DK",
+    "elevation": 16,
+    "latlng": [
+      55.88388,
+      12.22805
+    ],
+    "name": "Gorlose",
+    "time_info": {
+      "dawn": "03h23",
+      "noon": "13h13",
+      "sunrise": "04h25",
+      "sunset": "22h00",
+      "twilight": "23h03",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750454675,
+  "code": "EKGL",
+  "date": "2025-06-20",
+  "devices": [
+    {
+      "address": "D02130",
+      "aircraft": "JS-3 18M RES",
+      "aircraft_type": 1,
+      "competition": "IM",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "D-KGIM",
+      "tracked": true
+    },
+    {
+      "address": "45E2ED",
+      "aircraft": "Ventus 2cM",
+      "aircraft_type": 1,
+      "competition": "WM",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XWM",
+      "tracked": true
+    },
+    {
+      "address": "DDE2BA",
+      "aircraft": "Discus",
+      "aircraft_type": 1,
+      "competition": "SG",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-SXG",
+      "tracked": true
+    },
+    {
+      "address": "DDE2BF",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "VC",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XVC",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 32566,
+      "max_alt": 1970,
+      "max_height": 1954,
+      "start": "11h17",
+      "start_q": 28,
+      "start_tsp": 1750411024,
+      "stop": "20h19",
+      "stop_code": "ESTL",
+      "stop_delta": 94,
+      "stop_q": null,
+      "stop_tsp": 1750443590,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 29884,
+      "max_alt": 2230,
+      "max_height": 2214,
+      "start": "11h18",
+      "start_q": 28,
+      "start_tsp": 1750411124,
+      "stop": "19h36",
+      "stop_q": 28,
+      "stop_tsp": 1750441008,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 2,
+      "duration": 9287,
+      "max_alt": 1080,
+      "max_height": 1064,
+      "start": "13h40",
+      "start_q": 28,
+      "start_tsp": 1750419652,
+      "stop": "16h15",
+      "stop_q": 28,
+      "stop_tsp": 1750428939,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 3,
+      "duration": 1319,
+      "max_alt": 804,
+      "max_height": 788,
+      "start": "17h24",
+      "start_q": 28,
+      "start_tsp": 1750433049,
+      "stop": "17h46",
+      "stop_q": 28,
+      "stop_tsp": 1750434368,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 3,
+      "duration": 1106,
+      "max_alt": 818,
+      "max_height": 802,
+      "start": "18h02",
+      "start_q": 28,
+      "start_tsp": 1750435368,
+      "stop": "18h21",
+      "stop_q": 28,
+      "stop_tsp": 1750436474,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 3,
+      "duration": 1454,
+      "max_alt": 823,
+      "max_height": 807,
+      "start": "18h37",
+      "start_q": 28,
+      "start_tsp": 1750437458,
+      "stop": "19h01",
+      "stop_q": 28,
+      "stop_tsp": 1750438912,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 1903,
+      "max_alt": 807,
+      "max_height": 791,
+      "start": "20h22",
+      "start_code": "ESTL",
+      "start_q": null,
+      "start_tsp": 1750443726,
+      "stop": "20h53",
+      "stop_q": 26,
+      "stop_tsp": 1750445629,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKGL"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "a_day": "Thu",
+  "airfield": {
+    "code": "EKSA",
+    "country": "DK",
+    "elevation": 34,
+    "latlng": [
+      57.34528,
+      10.40917
+    ],
+    "name": "S\u00e6by/Ottestrup",
+    "time_info": {
+      "dawn": "03h10",
+      "noon": "13h20",
+      "sunrise": "04h20",
+      "sunset": "22h19",
+      "twilight": "23h30",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750360800,
+  "code": "EKSA",
+  "date": "2025-06-19",
+  "devices": [
+    {
+      "address": "45E0E7",
+      "aircraft": "Astir CS",
+      "aircraft_type": 1,
+      "competition": "G6",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-XGG",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 200,
+      "max_alt": 354,
+      "max_height": 320,
+      "start": "12h34",
+      "start_q": 30,
+      "start_tsp": 1750329288,
+      "stop": "12h38",
+      "stop_q": 30,
+      "stop_tsp": 1750329488,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 216,
+      "max_alt": 394,
+      "max_height": 360,
+      "start": "12h50",
+      "start_q": 30,
+      "start_tsp": 1750330243,
+      "stop": "12h54",
+      "stop_q": 30,
+      "stop_tsp": 1750330459,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 1141,
+      "max_alt": 615,
+      "max_height": 581,
+      "start": "13h09",
+      "start_q": 30,
+      "start_tsp": 1750331343,
+      "stop": "13h28",
+      "stop_q": 30,
+      "stop_tsp": 1750332484,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 180,
+      "max_alt": 395,
+      "max_height": 361,
+      "start": "13h37",
+      "start_q": 30,
+      "start_tsp": 1750333034,
+      "stop": "13h40",
+      "stop_q": 30,
+      "stop_tsp": 1750333214,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKSAg"
+  ]
+}

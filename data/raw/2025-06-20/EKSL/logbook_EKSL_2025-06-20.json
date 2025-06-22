@@ -1,0 +1,141 @@
+{
+  "a_day": "Fri",
+  "airfield": {
+    "code": "EKSL",
+    "country": "DK",
+    "elevation": 34,
+    "latlng": [
+      55.45112,
+      11.63805
+    ],
+    "name": "Slaglille",
+    "time_info": {
+      "dawn": "03h30",
+      "noon": "13h15",
+      "sunrise": "04h31",
+      "sunset": "22h00",
+      "twilight": "23h00",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750454680,
+  "code": "EKSL",
+  "date": "2025-06-20",
+  "devices": [
+    {
+      "address": "D02250",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "PL",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XPL",
+      "tracked": true
+    },
+    {
+      "address": "D026A4",
+      "aircraft": "Duo Discus",
+      "aircraft_type": 1,
+      "competition": "MX",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-RMX",
+      "tracked": true
+    },
+    {
+      "address": "459C58",
+      "aircraft": "ASH-31 MI",
+      "aircraft_type": 1,
+      "competition": "OB",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-GBX",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 235,
+      "max_alt": 365,
+      "max_height": 331,
+      "start": "12h18",
+      "start_q": 15,
+      "start_tsp": 1750414716,
+      "stop": "12h22",
+      "stop_q": 27,
+      "stop_tsp": 1750414951,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 421,
+      "max_alt": 337,
+      "max_height": 303,
+      "start": "12h24",
+      "start_q": 27,
+      "start_tsp": 1750415082,
+      "stop": "12h31",
+      "stop_q": 27,
+      "stop_tsp": 1750415503,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 1600,
+      "max_alt": 507,
+      "max_height": 473,
+      "start": "12h41",
+      "start_q": 28,
+      "start_tsp": 1750416111,
+      "stop": "13h08",
+      "stop_q": 27,
+      "stop_tsp": 1750417711,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 3734,
+      "max_alt": 1053,
+      "max_height": 1019,
+      "start": "12h44",
+      "start_q": 20,
+      "start_tsp": 1750416296,
+      "stop": "13h47",
+      "stop_q": 26,
+      "stop_tsp": 1750420030,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 2,
+      "duration": 13663,
+      "max_alt": 1325,
+      "max_height": 1291,
+      "start": "12h52",
+      "start_delta": 1,
+      "start_q": 28,
+      "start_tsp": 1750416764,
+      "stop": "16h40",
+      "stop_q": 26,
+      "stop_tsp": 1750430427,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKSL"
+  ]
+}

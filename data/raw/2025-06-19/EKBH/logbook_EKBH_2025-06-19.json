@@ -1,0 +1,163 @@
+{
+  "a_day": "Thu",
+  "airfield": {
+    "code": "EKBH",
+    "country": "DK",
+    "elevation": 30,
+    "latlng": [
+      55.6325,
+      8.75416
+    ],
+    "name": "Bolhede",
+    "time_info": {
+      "dawn": "03h40",
+      "noon": "13h27",
+      "sunrise": "04h41",
+      "sunset": "22h12",
+      "twilight": "23h13",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750360799,
+  "code": "EKBH",
+  "date": "2025-06-19",
+  "devices": [
+    {
+      "address": "DDBCF5",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "V1",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XDB",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 875,
+      "max_alt": 585,
+      "max_height": 555,
+      "start": "15h23",
+      "start_q": 14,
+      "start_tsp": 1750339430,
+      "stop": "15h38",
+      "stop_q": 27,
+      "stop_tsp": 1750340305,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 1092,
+      "max_alt": 897,
+      "max_height": 867,
+      "start": "15h52",
+      "start_q": 14,
+      "start_tsp": 1750341140,
+      "stop": "16h10",
+      "stop_q": 28,
+      "stop_tsp": 1750342232,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 867,
+      "max_alt": 641,
+      "max_height": 611,
+      "start": "16h23",
+      "start_q": 28,
+      "start_tsp": 1750343013,
+      "stop": "16h38",
+      "stop_q": 28,
+      "stop_tsp": 1750343880,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 700,
+      "max_alt": 465,
+      "max_height": 435,
+      "start": "16h48",
+      "start_q": 19,
+      "start_tsp": 1750344534,
+      "stop": "17h00",
+      "stop_q": 28,
+      "stop_tsp": 1750345234,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 544,
+      "max_alt": 433,
+      "max_height": 403,
+      "start": "17h11",
+      "start_q": 28,
+      "start_tsp": 1750345887,
+      "stop": "17h20",
+      "stop_q": 27,
+      "stop_tsp": 1750346431,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 369,
+      "max_alt": 457,
+      "max_height": 427,
+      "start": "17h36",
+      "start_q": 28,
+      "start_tsp": 1750347362,
+      "stop": "17h42",
+      "stop_q": 28,
+      "stop_tsp": 1750347731,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 463,
+      "max_alt": 426,
+      "max_height": 396,
+      "start": "17h52",
+      "start_q": 28,
+      "start_tsp": 1750348372,
+      "stop": "18h00",
+      "stop_q": 28,
+      "stop_tsp": 1750348835,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 403,
+      "max_alt": 437,
+      "max_height": 407,
+      "start": "18h15",
+      "start_q": 14,
+      "start_tsp": 1750349738,
+      "stop": "18h22",
+      "stop_q": 27,
+      "stop_tsp": 1750350141,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKBH"
+  ]
+}

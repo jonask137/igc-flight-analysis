@@ -1,0 +1,85 @@
+{
+  "a_day": "Fri",
+  "airfield": {
+    "code": "EKBH",
+    "country": "DK",
+    "elevation": 30,
+    "latlng": [
+      55.6325,
+      8.75416
+    ],
+    "name": "Bolhede",
+    "time_info": {
+      "dawn": "03h40",
+      "noon": "13h27",
+      "sunrise": "04h41",
+      "sunset": "22h12",
+      "twilight": "23h13",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750454677,
+  "code": "EKBH",
+  "date": "2025-06-20",
+  "devices": [
+    {
+      "address": "DD4E80",
+      "aircraft": "SF-25",
+      "aircraft_type": 1,
+      "competition": "VR",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XVR",
+      "tracked": true
+    },
+    {
+      "address": "45E316",
+      "aircraft": "SF-25",
+      "aircraft_type": 1,
+      "competition": "XV",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XXV",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 1774,
+      "max_alt": 933,
+      "max_height": 903,
+      "start": "13h22",
+      "start_code": "EKSP",
+      "start_q": null,
+      "start_tsp": 1750418543,
+      "stop": "13h51",
+      "stop_q": 28,
+      "stop_tsp": 1750420317,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 3310,
+      "max_alt": 620,
+      "max_height": 590,
+      "start": "20h41",
+      "start_q": 29,
+      "start_tsp": 1750444862,
+      "stop": "21h36",
+      "stop_q": 28,
+      "stop_tsp": 1750448172,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKBH"
+  ]
+}

@@ -5,7 +5,7 @@ from datetime import date
 from pathlib import Path
 
 # Multiple airfields supported
-AIRFIELDS = ["EKGL", "EKAB", "EKTRU"]
+AIRFIELDS = ["EKGL", "EKAB", "EKTRU", "EKBH", "EKHM", "EKSA", "EKVH", "EKVB", "EKEL", "EKFRE", "EKFRS", "EKKS", "EKSL"]
 BASE_URL = "https://flightbook.glidernet.org/api"
 TODAY = date.today().isoformat()  # e.g., '2025-06-18'
 

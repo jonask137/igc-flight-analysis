@@ -2,14 +2,23 @@ import json
 from pathlib import Path
 from datetime import datetime, date
 import getpass
+import argparse
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from db.models import Base, AirfieldReport, Device, Flight, IGCFile, IngestionLog
 
-# Constants
-RUN_DATE = date.today().isoformat()  # e.g., "2025-06-18"
+# Parse arguments for development purposes
+parser = argparse.ArgumentParser(description="Ingest flight data into the database.")
+parser.add_argument("--date", type=str, default=date.today().isoformat(), help="Specify the date (YYYY-MM-DD). Default is today.")
+parser.add_argument("--airport", type=str, help="Specify the airport code. Default is all airports.")
+args = parser.parse_args()
+
+# Use the provided date and airport or default values
+RUN_DATE = args.date
 BASE_DIR = Path("data/raw") / RUN_DATE
+SPECIFIC_AIRPORT = args.airport
+
 USERNAME = getpass.getuser()
 
 # DB setup
@@ -22,6 +31,11 @@ for airfield_path in BASE_DIR.iterdir():
         continue
 
     code = airfield_path.name
+
+    # Skip if specific airport is set and doesn't match
+    if SPECIFIC_AIRPORT and code != SPECIFIC_AIRPORT:
+        continue
+
     logbook_path = airfield_path / f"logbook_{code}_{RUN_DATE}.json"
 
     if not logbook_path.exists():
@@ -40,6 +54,15 @@ for airfield_path in BASE_DIR.iterdir():
     ).first()
 
     if existing:
+        print(f"🔄 Reloading flights for {code} on {report_date}...")
+        # Remove existing flights linked to the report
+        session.query(Flight).filter_by(report_id=existing.id).delete()
+        session.query(IGCFile).filter(IGCFile.flight_id.in_(
+            session.query(Flight.id).filter_by(report_id=existing.id)
+        )).delete()
+        session.commit()
+    else:
+        print(f"⏩ Skipping reload for {code} — no existing report found.")
         session.add(IngestionLog(
             airfield_code=code,
             date=report_date,
@@ -82,7 +105,13 @@ for airfield_path in BASE_DIR.iterdir():
 
         # Insert flights
         flights = logbook.get("flights", [])
+        skipped_flights = 0
         for flight in flights:
+            if not flight.get("stop_tsp"):
+                print(f"⚠️ Skipping flight without end time: {flight}")
+                skipped_flights += 1
+                continue
+
             device_address = device_map[flight["device"]]
             start = flight["start_tsp"]
             stop = flight["stop_tsp"]
@@ -113,6 +142,16 @@ for airfield_path in BASE_DIR.iterdir():
                     file_path=str(igc_path.relative_to("data")),
                     downloaded_at=datetime.now()
                 ))
+
+        # Add warning to log
+        if skipped_flights > 0:
+            session.add(IngestionLog(
+                airfield_code=code,
+                date=report_date,
+                status="warning",
+                message=f"Skipped {skipped_flights} flights without end time.",
+                run_by=USERNAME
+            ))
 
         session.add(IngestionLog(
             airfield_code=code,

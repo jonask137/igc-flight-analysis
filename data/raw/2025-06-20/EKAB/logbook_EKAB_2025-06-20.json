@@ -1,0 +1,59 @@
+{
+  "a_day": "Fri",
+  "airfield": {
+    "code": "EKAB",
+    "country": "DK",
+    "elevation": 37,
+    "latlng": [
+      56.01195,
+      9.0125
+    ],
+    "name": "Arnborg",
+    "time_info": {
+      "dawn": "03h34",
+      "noon": "13h26",
+      "sunrise": "04h37",
+      "sunset": "22h14",
+      "twilight": "23h17",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750454676,
+  "code": "EKAB",
+  "date": "2025-06-20",
+  "devices": [
+    {
+      "address": "~09E03D409B",
+      "aircraft": null,
+      "aircraft_type": 0,
+      "competition": null,
+      "db_org": null,
+      "device_type": "U",
+      "identified": false,
+      "registration": null,
+      "tracked": false
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": null,
+      "max_alt": null,
+      "max_height": null,
+      "start": null,
+      "start_q": null,
+      "start_tsp": null,
+      "stop": "20h35",
+      "stop_delta": 18,
+      "stop_q": 26,
+      "stop_tsp": 1750444544,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    }
+  ],
+  "rnames": [
+    "EKAB2"
+  ]
+}
