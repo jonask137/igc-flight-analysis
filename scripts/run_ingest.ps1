@@ -1,7 +1,8 @@
 # Allow passing arguments to the Python script
 param(
-    [string]$Date = "",
-    [string]$Airport = ""
+    [string]$StartDate,
+    [string]$EndDate,
+    [string]$Airport
 )
 
 $projectRoot = "C:\Users\402824\repos\igc-flight-analysis"
@@ -10,11 +11,17 @@ $scriptPath = "scripts\ingest_scraped_data.py"
 
 cd $projectRoot
 
+Write-Host "Running ingestion from $StartDate to $EndDate for airport: $Airport"
+
 # Build argument array
 $args = @()
-if ($Date -ne "") {
-    $args += "--date"
-    $args += $Date
+if ($StartDate -ne "") {
+    $args += "--start-date"
+    $args += $StartDate
+}
+if ($EndDate -ne "") {
+    $args += "--end-date"
+    $args += $EndDate
 }
 if ($Airport -ne "") {
     $args += "--airport"

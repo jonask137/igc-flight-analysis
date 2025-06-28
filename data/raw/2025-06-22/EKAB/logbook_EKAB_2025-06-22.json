@@ -1,0 +1,88 @@
+{
+  "a_day": "Sun",
+  "airfield": {
+    "code": "EKAB",
+    "country": "DK",
+    "elevation": 37,
+    "latlng": [
+      56.01195,
+      9.0125
+    ],
+    "name": "Arnborg",
+    "time_info": {
+      "dawn": "03h35",
+      "noon": "13h26",
+      "sunrise": "04h37",
+      "sunset": "22h15",
+      "twilight": "23h17",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750620531,
+  "code": "EKAB",
+  "date": "2025-06-22",
+  "devices": [
+    {
+      "address": "DDB04A",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "PC",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XPC",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 245,
+      "max_alt": 360,
+      "max_height": 323,
+      "start": "11h41",
+      "start_q": 9,
+      "start_tsp": 1750585277,
+      "stop": "11h45",
+      "stop_q": 11,
+      "stop_tsp": 1750585522,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 78,
+      "max_alt": 180,
+      "max_height": 143,
+      "start": "12h22",
+      "start_q": 9,
+      "start_tsp": 1750587739,
+      "stop": "12h23",
+      "stop_q": 8,
+      "stop_tsp": 1750587817,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 184,
+      "max_alt": 328,
+      "max_height": 291,
+      "start": "13h32",
+      "start_q": 9,
+      "start_tsp": 1750591975,
+      "stop": "13h35",
+      "stop_q": 9,
+      "stop_tsp": 1750592159,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKAB2"
+  ]
+}

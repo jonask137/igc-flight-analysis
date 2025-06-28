@@ -6,9 +6,23 @@
 
 -- select * 
 -- from flights
--- where device_address = 'D01EFB'
+-- where max_height = 323
 -- ;
 
-select *
-from flights
-order by report_id desc
+-- select device_address, start_tsp, stop_tsp, count(*) as n
+-- from flights
+-- group by device_address, start_tsp, stop_tsp
+-- order by n desc
+-- ;
+
+--     DELETE FROM flights
+--     WHERE id NOT IN (
+--         SELECT MAX(id)
+--         FROM flights
+--         GROUP BY device_address, start_tsp, stop_tsp
+--         )
+
+delete from airfield_reports;
+delete from devices;
+delete from flights;
+delete from igc_files;

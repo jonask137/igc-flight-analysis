@@ -1,0 +1,130 @@
+{
+  "a_day": "Wed",
+  "airfield": {
+    "code": "EKVB",
+    "country": "DK",
+    "elevation": 25,
+    "latlng": [
+      56.40995,
+      9.4094
+    ],
+    "name": "Viborg",
+    "time_info": {
+      "dawn": "03h29",
+      "noon": "13h25",
+      "sunrise": "04h34",
+      "sunset": "22h16",
+      "twilight": "23h21",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750880731,
+  "code": "EKVB",
+  "date": "2025-06-25",
+  "devices": [
+    {
+      "address": "00DC00",
+      "aircraft": "EC 135",
+      "aircraft_type": 4,
+      "competition": "NLA",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "LN-OUK",
+      "tracked": true
+    },
+    {
+      "address": "D00220",
+      "aircraft": "SF-25",
+      "aircraft_type": 1,
+      "competition": "ZG",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XZG",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": null,
+      "max_alt": null,
+      "max_height": null,
+      "start": null,
+      "start_q": null,
+      "start_tsp": null,
+      "stop": "13h52",
+      "stop_q": 29,
+      "stop_tsp": 1750852361,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    },
+    {
+      "device": 0,
+      "duration": 128,
+      "max_alt": 161,
+      "max_height": 136,
+      "start": "13h53",
+      "start_q": 29,
+      "start_tsp": 1750852433,
+      "stop": "13h56",
+      "stop_q": 29,
+      "stop_tsp": 1750852561,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    },
+    {
+      "device": 0,
+      "duration": null,
+      "duration_expected": 28047,
+      "max_alt": null,
+      "max_height": null,
+      "start": "13h58",
+      "start_q": 29,
+      "start_tsp": 1750852684,
+      "stop": null,
+      "stop_q": null,
+      "stop_tsp": null,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    },
+    {
+      "device": 1,
+      "duration": 672,
+      "max_alt": 372,
+      "max_height": 347,
+      "start": "19h36",
+      "start_q": 29,
+      "start_tsp": 1750872970,
+      "stop": "19h47",
+      "stop_q": 29,
+      "stop_tsp": 1750873642,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 3047,
+      "max_alt": 711,
+      "max_height": 686,
+      "start": "20h33",
+      "start_q": 29,
+      "start_tsp": 1750876395,
+      "stop": "21h24",
+      "stop_q": 29,
+      "stop_tsp": 1750879442,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKVB"
+  ]
+}

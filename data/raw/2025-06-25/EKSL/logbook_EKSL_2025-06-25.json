@@ -1,0 +1,193 @@
+{
+  "a_day": "Wed",
+  "airfield": {
+    "code": "EKSL",
+    "country": "DK",
+    "elevation": 34,
+    "latlng": [
+      55.45112,
+      11.63805
+    ],
+    "name": "Slaglille",
+    "time_info": {
+      "dawn": "03h32",
+      "noon": "13h16",
+      "sunrise": "04h32",
+      "sunset": "22h00",
+      "twilight": "23h00",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1750880734,
+  "code": "EKSL",
+  "date": "2025-06-25",
+  "devices": [
+    {
+      "address": "D02250",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "PL",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XPL",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 449,
+      "max_alt": 456,
+      "max_height": 422,
+      "start": "17h26",
+      "start_q": 25,
+      "start_tsp": 1750865217,
+      "stop": "17h34",
+      "stop_q": 27,
+      "stop_tsp": 1750865666,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 1868,
+      "max_alt": 756,
+      "max_height": 722,
+      "start": "17h51",
+      "start_q": 27,
+      "start_tsp": 1750866663,
+      "stop": "18h22",
+      "stop_q": 27,
+      "stop_tsp": 1750868531,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 337,
+      "max_alt": 440,
+      "max_height": 406,
+      "start": "18h37",
+      "start_q": 27,
+      "start_tsp": 1750869477,
+      "stop": "18h43",
+      "stop_q": 27,
+      "stop_tsp": 1750869814,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 278,
+      "max_alt": 432,
+      "max_height": 398,
+      "start": "19h03",
+      "start_q": 27,
+      "start_tsp": 1750870991,
+      "stop": "19h07",
+      "stop_q": 27,
+      "stop_tsp": 1750871269,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 356,
+      "max_alt": 437,
+      "max_height": 403,
+      "start": "19h27",
+      "start_q": 27,
+      "start_tsp": 1750872458,
+      "stop": "19h33",
+      "stop_q": 27,
+      "stop_tsp": 1750872814,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 352,
+      "max_alt": 413,
+      "max_height": 379,
+      "start": "19h49",
+      "start_q": 23,
+      "start_tsp": 1750873796,
+      "stop": "19h55",
+      "stop_q": 27,
+      "stop_tsp": 1750874148,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 109,
+      "max_alt": 208,
+      "max_height": 174,
+      "start": "20h11",
+      "start_q": 27,
+      "start_tsp": 1750875107,
+      "stop": "20h13",
+      "stop_q": 27,
+      "stop_tsp": 1750875216,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 329,
+      "max_alt": 414,
+      "max_height": 380,
+      "start": "20h28",
+      "start_q": 27,
+      "start_tsp": 1750876102,
+      "stop": "20h33",
+      "stop_q": 27,
+      "stop_tsp": 1750876431,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 304,
+      "max_alt": 403,
+      "max_height": 369,
+      "start": "20h49",
+      "start_q": 27,
+      "start_tsp": 1750877361,
+      "stop": "20h54",
+      "stop_q": 27,
+      "stop_tsp": 1750877665,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 354,
+      "max_alt": 442,
+      "max_height": 408,
+      "start": "21h08",
+      "start_q": 25,
+      "start_tsp": 1750878536,
+      "stop": "21h14",
+      "stop_q": 27,
+      "stop_tsp": 1750878890,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKSL"
+  ]
+}
