@@ -1,0 +1,28 @@
+{
+  "a_day": "Sat",
+  "airfield": {
+    "code": "EKBH",
+    "country": "DK",
+    "elevation": 30,
+    "latlng": [
+      55.6325,
+      8.75416
+    ],
+    "name": "Bolhede",
+    "time_info": {
+      "dawn": "03h44",
+      "noon": "13h29",
+      "sunrise": "04h44",
+      "sunset": "22h12",
+      "twilight": "23h12",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751121387,
+  "code": "EKBH",
+  "date": "2025-06-28",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

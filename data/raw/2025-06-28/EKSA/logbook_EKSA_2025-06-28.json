@@ -1,0 +1,28 @@
+{
+  "a_day": "Sat",
+  "airfield": {
+    "code": "EKSA",
+    "country": "DK",
+    "elevation": 34,
+    "latlng": [
+      57.34528,
+      10.40917
+    ],
+    "name": "S\u00e6by/Ottestrup",
+    "time_info": {
+      "dawn": "03h14",
+      "noon": "13h22",
+      "sunrise": "04h24",
+      "sunset": "22h19",
+      "twilight": "23h29",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751121387,
+  "code": "EKSA",
+  "date": "2025-06-28",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

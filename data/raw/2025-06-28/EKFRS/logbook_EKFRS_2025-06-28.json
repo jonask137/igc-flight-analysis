@@ -1,0 +1,28 @@
+{
+  "a_day": "Sat",
+  "airfield": {
+    "code": "EKFRS",
+    "country": "DK",
+    "elevation": 2,
+    "latlng": [
+      55.81612,
+      12.08222
+    ],
+    "name": "Frederikssund Syd",
+    "time_info": {
+      "dawn": "03h28",
+      "noon": "13h15",
+      "sunrise": "04h29",
+      "sunset": "22h00",
+      "twilight": "23h01",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751121389,
+  "code": "EKFRS",
+  "date": "2025-06-28",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

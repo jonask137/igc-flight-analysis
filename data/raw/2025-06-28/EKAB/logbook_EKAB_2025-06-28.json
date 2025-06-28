@@ -1,0 +1,118 @@
+{
+  "a_day": "Sat",
+  "airfield": {
+    "code": "EKAB",
+    "country": "DK",
+    "elevation": 37,
+    "latlng": [
+      56.01195,
+      9.0125
+    ],
+    "name": "Arnborg",
+    "time_info": {
+      "dawn": "03h38",
+      "noon": "13h28",
+      "sunrise": "04h40",
+      "sunset": "22h14",
+      "twilight": "23h16",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751121385,
+  "code": "EKAB",
+  "date": "2025-06-28",
+  "devices": [
+    {
+      "address": "DDB04A",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "PC",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XPC",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 306,
+      "max_alt": 410,
+      "max_height": 373,
+      "start": "11h41",
+      "start_q": 26,
+      "start_tsp": 1751103669,
+      "stop": "11h46",
+      "stop_q": 27,
+      "stop_tsp": 1751103975,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 265,
+      "max_alt": 387,
+      "max_height": 350,
+      "start": "11h51",
+      "start_q": 26,
+      "start_tsp": 1751104297,
+      "stop": "11h56",
+      "stop_q": 27,
+      "stop_tsp": 1751104562,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 254,
+      "max_alt": 396,
+      "max_height": 359,
+      "start": "12h26",
+      "start_q": 26,
+      "start_tsp": 1751106402,
+      "stop": "12h30",
+      "stop_q": 26,
+      "stop_tsp": 1751106656,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 299,
+      "max_alt": 415,
+      "max_height": 378,
+      "start": "15h01",
+      "start_q": 26,
+      "start_tsp": 1751115676,
+      "stop": "15h06",
+      "stop_q": 27,
+      "stop_tsp": 1751115975,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 260,
+      "max_alt": 401,
+      "max_height": 364,
+      "start": "15h14",
+      "start_q": 26,
+      "start_tsp": 1751116489,
+      "stop": "15h19",
+      "stop_q": 26,
+      "stop_tsp": 1751116749,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKAB2"
+  ]
+}

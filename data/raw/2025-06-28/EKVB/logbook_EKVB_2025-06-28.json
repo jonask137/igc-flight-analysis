@@ -1,0 +1,59 @@
+{
+  "a_day": "Sat",
+  "airfield": {
+    "code": "EKVB",
+    "country": "DK",
+    "elevation": 25,
+    "latlng": [
+      56.40995,
+      9.4094
+    ],
+    "name": "Viborg",
+    "time_info": {
+      "dawn": "03h31",
+      "noon": "13h26",
+      "sunrise": "04h36",
+      "sunset": "22h16",
+      "twilight": "23h19",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751121389,
+  "code": "EKVB",
+  "date": "2025-06-28",
+  "devices": [
+    {
+      "address": "D014F4",
+      "aircraft": "EuroFox",
+      "aircraft_type": 3,
+      "competition": null,
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-9448",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": null,
+      "duration_expected": 549,
+      "max_alt": null,
+      "max_height": null,
+      "start": "16h27",
+      "start_q": 29,
+      "start_tsp": 1751120840,
+      "stop": null,
+      "stop_q": null,
+      "stop_tsp": null,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    }
+  ],
+  "rnames": [
+    "EKVB"
+  ]
+}

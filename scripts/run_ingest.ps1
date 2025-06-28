@@ -2,7 +2,8 @@
 param(
     [string]$StartDate,
     [string]$EndDate,
-    [string]$Airport
+    [string]$Airport,
+    [bool]$RunScraper = $false
 )
 
 $projectRoot = "C:\Users\402824\repos\igc-flight-analysis"
@@ -10,6 +11,11 @@ $pythonExe = "$projectRoot\.venv\Scripts\python.exe"
 $scriptPath = "scripts\ingest_scraped_data.py"
 
 cd $projectRoot
+
+if ($RunScraper) {
+    Write-Host "Running scraper to fetch data..."
+    & $pythonExe -m scraper.fetcher
+}
 
 Write-Host "Running ingestion from $StartDate to $EndDate for airport: $Airport"
 
