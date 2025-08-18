@@ -41,7 +41,7 @@ class Flight(Base):
     report_id = Column(Integer, ForeignKey("airfield_reports.id"), nullable=False)
 
     start_tsp = Column(Integer, nullable=False)
-    stop_tsp = Column(Integer, nullable=False)
+    stop_tsp = Column(Integer, nullable=True)  # Allow NULL for outlanded flights
     start_time = Column(String)
     stop_time = Column(String)
     duration_sec = Column(Integer)

@@ -96,7 +96,11 @@ if flights:
     flight_labels = []
     for flight, device, igc_file in flights:
         airfield_name = session.query(AirfieldReport.airfield_code).filter(AirfieldReport.id == flight.report_id).scalar()
-        label = f"{device.registration} {flight.start_time}-{flight.stop_time}"
+        # Create a nice label for flight - handle outlanded flights gracefully
+        if flight.stop_time:
+            label = f"{device.registration} {flight.start_time}-{flight.stop_time}"
+        else:
+            label = f"{device.registration} {flight.start_time} (outlanded)"
         flight_labels.append(label)
         flight_data.append({
             "Select": False,  # Checkbox column for selection
@@ -104,7 +108,7 @@ if flights:
             "Aircraft": device.aircraft,
             "Competition": device.competition,
             "Start Time": flight.start_time,
-            "Stop Time": flight.stop_time,
+            "Stop Time": flight.stop_time if flight.stop_time else "Outlanded",
             "Duration (min)": round((flight.duration_sec or 0) / 60, 1),
             "Max Alt (m)": flight.max_alt,
             "Airfield": airfield_name,  # Retrieve airfield name from AirfieldReport

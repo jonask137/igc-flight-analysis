@@ -127,21 +127,31 @@ for RUN_DATE in date_range:
                     skipped_flights += 1
                     continue
 
-                if not flight.get("stop_tsp"):
-                    print(f"⚠️ Skipping flight without end time: {flight}")
-                    skipped_flights += 1
-                    continue
-
                 device_address = device_map[flight["device"]]
                 start = flight["start_tsp"]
-                stop = flight["stop_tsp"]
+                
+                if not flight.get("stop_tsp"):
+                    # Handle outlanded flights (flights without end time)
+                    print(f"ℹ️ Processing outlanded flight: {flight}")
+                    stop = None  # Allow None for outlanded flights
+                else:
+                    stop = flight["stop_tsp"]
 
                 # Skip if flight already ingested
-                existing_flight = session.query(Flight).filter_by(
-                    device_address=device_address,
-                    start_tsp=start,
-                    stop_tsp=stop
-                ).first()
+                # For outlanded flights, we only check device_address and start_tsp since stop_tsp might be None
+                if stop is not None:
+                    existing_flight = session.query(Flight).filter_by(
+                        device_address=device_address,
+                        start_tsp=start,
+                        stop_tsp=stop
+                    ).first()
+                else:
+                    existing_flight = session.query(Flight).filter_by(
+                        device_address=device_address,
+                        start_tsp=start,
+                        stop_tsp=None
+                    ).first()
+                
                 if existing_flight:
                     print(f"⏩ Skipping already ingested flight: {flight}")
                     skipped_flights += 1
@@ -165,7 +175,12 @@ for RUN_DATE in date_range:
                 session.flush()  # get f.id
 
                 # Add IGC file if exists
-                filename = f"{device_address}_{start}_{stop}.igc"
+                # For outlanded flights without stop_tsp, the files are named with 'None' instead of stop timestamp
+                if stop is not None:
+                    filename = f"{device_address}_{start}_{stop}.igc"
+                else:
+                    filename = f"{device_address}_{start}_None.igc"
+                    
                 igc_path = airfield_path / filename
                 if igc_path.exists():
                     session.add(IGCFile(
@@ -174,13 +189,13 @@ for RUN_DATE in date_range:
                         downloaded_at=datetime.now()
                     ))
 
-            # Add warning to log
+            # Add warning to log if flights were skipped for other reasons
             if skipped_flights > 0:
                 session.add(IngestionLog(
                     airfield_code=code,
                     date=report_date,
                     status="warning",
-                    message=f"Skipped {skipped_flights} flights without end time.",
+                    message=f"Skipped {skipped_flights} flights due to missing data.",
                     run_by=USERNAME
                 ))
 
