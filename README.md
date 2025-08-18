@@ -77,11 +77,10 @@ Basic unit tests are in tests/. To run:
 
 # 📌 TODO
 
-- Investigate upwards movement.
+- Use libigc for storing the flight tracker data. Link flight tracks on date, device, start_tsp and stop_tsp.
+    - see flight tracks notebook. we can extract the tracks, get thermal and glide stats. This can be persisted to a table. We can relate it to the rest of the database using the file name. this will always be a unique identifier.
+    - create delta logic to ingest flight tracks. and thermal + glide stats.
 
-- Investigate circling diameter
-
-- Plot heatmap of thermals
-
+- Create dbt project for prepping the data for analysis. https://docs.getdbt.com/docs/core/connect-data-platform/sqlite-setup
 
 

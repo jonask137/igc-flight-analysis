@@ -1,0 +1,88 @@
+{
+  "a_day": "Sat",
+  "airfield": {
+    "code": "EKSA",
+    "country": "DK",
+    "elevation": 34,
+    "latlng": [
+      57.34528,
+      10.40917
+    ],
+    "name": "S\u00e6by/Ottestrup",
+    "time_info": {
+      "dawn": "03h52",
+      "noon": "13h25",
+      "sunrise": "04h51",
+      "sunset": "21h57",
+      "twilight": "22h56",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1752960495,
+  "code": "EKSA",
+  "date": "2025-07-19",
+  "devices": [
+    {
+      "address": "45E241",
+      "aircraft": "SZD-50 Puchacz",
+      "aircraft_type": 1,
+      "competition": "RA",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-XRA",
+      "tracked": true
+    },
+    {
+      "address": "45CB02",
+      "aircraft": "SZD-51 Junior",
+      "aircraft_type": 1,
+      "competition": "RB",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-RXB",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 14665,
+      "max_alt": 344,
+      "max_height": 310,
+      "start": "10h45",
+      "start_delta": 22,
+      "start_q": 27,
+      "start_tsp": 1752914709,
+      "stop": "14h49",
+      "stop_delta": 29,
+      "stop_q": 0,
+      "stop_tsp": 1752929374,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 14756,
+      "max_alt": 378,
+      "max_height": 344,
+      "start": "11h09",
+      "start_delta": 4271,
+      "start_q": 11,
+      "start_tsp": 1752916143,
+      "stop": "15h14",
+      "stop_q": 12,
+      "stop_tsp": 1752930899,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKSA",
+    "EKSAg"
+  ]
+}

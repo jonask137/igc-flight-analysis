@@ -1,0 +1,28 @@
+{
+  "a_day": "Tue",
+  "airfield": {
+    "code": "EKVH",
+    "country": "DK",
+    "elevation": 36,
+    "latlng": [
+      56.8469,
+      9.4586
+    ],
+    "name": "Vesthimmerland",
+    "time_info": {
+      "dawn": "03h28",
+      "noon": "13h26",
+      "sunrise": "04h34",
+      "sunset": "22h18",
+      "twilight": "23h23",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751404432,
+  "code": "EKVH",
+  "date": "2025-07-01",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

@@ -1,0 +1,28 @@
+{
+  "a_day": "Sun",
+  "airfield": {
+    "code": "EKGES",
+    "country": "DK",
+    "elevation": 49,
+    "latlng": [
+      55.55083,
+      9.18472
+    ],
+    "name": "Gesten",
+    "time_info": {
+      "dawn": "05h02",
+      "noon": "13h28",
+      "sunrise": "05h47",
+      "sunset": "21h09",
+      "twilight": "21h53",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1754851605,
+  "code": "EKGES",
+  "date": "2025-08-10",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

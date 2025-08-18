@@ -1,0 +1,28 @@
+{
+  "a_day": "Thu",
+  "airfield": {
+    "code": "EKHM",
+    "country": "DK",
+    "elevation": 90,
+    "latlng": [
+      55.90695,
+      9.45361
+    ],
+    "name": "Hammer",
+    "time_info": {
+      "dawn": "04h06",
+      "noon": "13h28",
+      "sunrise": "05h01",
+      "sunset": "21h55",
+      "twilight": "22h49",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1752780757,
+  "code": "EKHM",
+  "date": "2025-07-17",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

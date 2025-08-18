@@ -1,0 +1,59 @@
+{
+  "a_day": "Mon",
+  "airfield": {
+    "code": "EKVH",
+    "country": "DK",
+    "elevation": 36,
+    "latlng": [
+      56.8469,
+      9.4586
+    ],
+    "name": "Vesthimmerland",
+    "time_info": {
+      "dawn": "03h27",
+      "noon": "13h26",
+      "sunrise": "04h33",
+      "sunset": "22h18",
+      "twilight": "23h24",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751309758,
+  "code": "EKVH",
+  "date": "2025-06-30",
+  "devices": [
+    {
+      "address": "3E6C14",
+      "aircraft": "Stemme S-10",
+      "aircraft_type": 1,
+      "competition": "Q4",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "D-KGCY",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": null,
+      "duration_expected": 11777,
+      "max_alt": null,
+      "max_height": null,
+      "start": "17h39",
+      "start_q": 28,
+      "start_tsp": 1751297981,
+      "stop": null,
+      "stop_q": null,
+      "stop_tsp": null,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    }
+  ],
+  "rnames": [
+    "EKVH"
+  ]
+}

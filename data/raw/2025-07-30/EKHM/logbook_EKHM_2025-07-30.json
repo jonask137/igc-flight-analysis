@@ -1,0 +1,59 @@
+{
+  "a_day": "Wed",
+  "airfield": {
+    "code": "EKHM",
+    "country": "DK",
+    "elevation": 90,
+    "latlng": [
+      55.90695,
+      9.45361
+    ],
+    "name": "Hammer",
+    "time_info": {
+      "dawn": "04h34",
+      "noon": "13h29",
+      "sunrise": "05h23",
+      "sunset": "21h33",
+      "twilight": "22h21",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1753890408,
+  "code": "EKHM",
+  "date": "2025-07-30",
+  "devices": [
+    {
+      "address": "DD51E0",
+      "aircraft": "LS-4",
+      "aircraft_type": 1,
+      "competition": "V8",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XNV",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 5403,
+      "max_alt": 1221,
+      "max_height": 1131,
+      "start": "13h05",
+      "start_code": "EKAB",
+      "start_q": null,
+      "start_tsp": 1753873539,
+      "stop": "14h35",
+      "stop_q": 11,
+      "stop_tsp": 1753878942,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKHM"
+  ]
+}

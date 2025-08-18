@@ -1,0 +1,16 @@
+{
+  "a_day": "Sun",
+  "airfield": {
+    "code": "EKEL",
+    "elevation": null,
+    "latlng": null,
+    "name": null,
+    "time_info": null
+  },
+  "call_tsp": 1755456142,
+  "code": "EKEL",
+  "date": "2025-08-17",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

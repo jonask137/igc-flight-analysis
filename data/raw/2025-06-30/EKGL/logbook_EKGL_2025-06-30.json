@@ -1,0 +1,99 @@
+{
+  "a_day": "Mon",
+  "airfield": {
+    "code": "EKGL",
+    "country": "DK",
+    "elevation": 16,
+    "latlng": [
+      55.88388,
+      12.22805
+    ],
+    "name": "Gorlose",
+    "time_info": {
+      "dawn": "03h29",
+      "noon": "13h15",
+      "sunrise": "04h30",
+      "sunset": "21h59",
+      "twilight": "23h00",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751309753,
+  "code": "EKGL",
+  "date": "2025-06-30",
+  "devices": [
+    {
+      "address": "DDA538",
+      "aircraft": "UFO",
+      "aircraft_type": 6,
+      "competition": null,
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "D-9813",
+      "tracked": true
+    },
+    {
+      "address": "DDE64B",
+      "aircraft": "H36 Dimona",
+      "aircraft_type": 1,
+      "competition": "FX",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-NFX",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 4294,
+      "max_alt": 915,
+      "max_height": 899,
+      "start": "13h43",
+      "start_q": 28,
+      "start_tsp": 1751283802,
+      "stop": "14h54",
+      "stop_q": 28,
+      "stop_tsp": 1751288096,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 2786,
+      "max_alt": 497,
+      "max_height": 481,
+      "start": "14h27",
+      "start_q": 28,
+      "start_tsp": 1751286451,
+      "stop": "15h13",
+      "stop_q": 28,
+      "stop_tsp": 1751289237,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 3410,
+      "max_alt": 894,
+      "max_height": 878,
+      "start": "16h21",
+      "start_q": 28,
+      "start_tsp": 1751293305,
+      "stop": "17h18",
+      "stop_q": 28,
+      "stop_tsp": 1751296715,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKGL"
+  ]
+}

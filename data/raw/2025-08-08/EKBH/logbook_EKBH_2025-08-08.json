@@ -1,0 +1,58 @@
+{
+  "a_day": "Fri",
+  "airfield": {
+    "code": "EKBH",
+    "country": "DK",
+    "elevation": 30,
+    "latlng": [
+      55.6325,
+      8.75416
+    ],
+    "name": "Bolhede",
+    "time_info": {
+      "dawn": "04h59",
+      "noon": "13h30",
+      "sunrise": "05h44",
+      "sunset": "21h16",
+      "twilight": "22h01",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1754689529,
+  "code": "EKBH",
+  "date": "2025-08-08",
+  "devices": [
+    {
+      "address": "D029D0",
+      "aircraft": "ASH-26 E",
+      "aircraft_type": 1,
+      "competition": "IS",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "D-KSIS",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 10166,
+      "max_alt": 1285,
+      "max_height": 1255,
+      "start": "14h06",
+      "start_q": 28,
+      "start_tsp": 1754654803,
+      "stop": "16h56",
+      "stop_q": 27,
+      "stop_tsp": 1754664969,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKBH"
+  ]
+}

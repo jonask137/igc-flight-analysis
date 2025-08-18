@@ -1,0 +1,116 @@
+{
+  "a_day": "Sun",
+  "airfield": {
+    "code": "EKKS",
+    "country": "DK",
+    "elevation": 40,
+    "latlng": [
+      55.25222,
+      12.06278
+    ],
+    "name": "Kongsted",
+    "time_info": {
+      "dawn": "05h08",
+      "noon": "13h16",
+      "sunrise": "05h49",
+      "sunset": "20h41",
+      "twilight": "21h22",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1755456142,
+  "code": "EKKS",
+  "date": "2025-08-17",
+  "devices": [
+    {
+      "address": "DD4FE7",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "R2",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XKO",
+      "tracked": true
+    },
+    {
+      "address": "D026C5",
+      "aircraft": "Duo Discus t",
+      "aircraft_type": 1,
+      "competition": "RR",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-RRX",
+      "tracked": true
+    },
+    {
+      "address": "~4A108AC9EB",
+      "aircraft": null,
+      "aircraft_type": 0,
+      "competition": null,
+      "db_org": null,
+      "device_type": "U",
+      "identified": false,
+      "registration": null,
+      "tracked": false
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": null,
+      "duration_expected": 27529,
+      "max_alt": null,
+      "max_height": null,
+      "start": "13h03",
+      "start_delta": 1304,
+      "start_q": 18,
+      "start_tsp": 1755428613,
+      "stop": null,
+      "stop_q": null,
+      "stop_tsp": null,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    },
+    {
+      "device": 1,
+      "duration": null,
+      "duration_expected": 24980,
+      "max_alt": null,
+      "max_height": null,
+      "start": "13h46",
+      "start_delta": 2736,
+      "start_q": 5,
+      "start_tsp": 1755431162,
+      "stop": null,
+      "stop_q": null,
+      "stop_tsp": null,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    },
+    {
+      "device": 2,
+      "duration": null,
+      "duration_expected": 15309,
+      "max_alt": null,
+      "max_height": null,
+      "start": "16h27",
+      "start_delta": 6518,
+      "start_q": 31,
+      "start_tsp": 1755440833,
+      "stop": null,
+      "stop_q": null,
+      "stop_tsp": null,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    }
+  ],
+  "rnames": [
+    "EKSL"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "a_day": "Tue",
+  "airfield": {
+    "code": "EKHM",
+    "country": "DK",
+    "elevation": 90,
+    "latlng": [
+      55.90695,
+      9.45361
+    ],
+    "name": "Hammer",
+    "time_info": {
+      "dawn": "03h41",
+      "noon": "13h26",
+      "sunrise": "04h41",
+      "sunset": "22h10",
+      "twilight": "23h11",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751404432,
+  "code": "EKHM",
+  "date": "2025-07-01",
+  "devices": [
+    {
+      "address": "45970E",
+      "aircraft": "HK36 Super Dimona",
+      "aircraft_type": 1,
+      "competition": "EXN",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-EXN",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": null,
+      "max_alt": null,
+      "max_height": null,
+      "start": null,
+      "start_q": null,
+      "start_tsp": null,
+      "stop": "17h57",
+      "stop_q": 10,
+      "stop_tsp": 1751385460,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    },
+    {
+      "device": 0,
+      "duration": null,
+      "duration_expected": 16640,
+      "max_alt": null,
+      "max_height": null,
+      "start": "18h36",
+      "start_q": 10,
+      "start_tsp": 1751387792,
+      "stop": null,
+      "stop_q": null,
+      "stop_tsp": null,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    }
+  ],
+  "rnames": [
+    "EKHM"
+  ]
+}

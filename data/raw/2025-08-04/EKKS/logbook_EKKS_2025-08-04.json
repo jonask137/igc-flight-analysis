@@ -1,0 +1,58 @@
+{
+  "a_day": "Mon",
+  "airfield": {
+    "code": "EKKS",
+    "country": "DK",
+    "elevation": 40,
+    "latlng": [
+      55.25222,
+      12.06278
+    ],
+    "name": "Kongsted",
+    "time_info": {
+      "dawn": "04h39",
+      "noon": "13h18",
+      "sunrise": "05h25",
+      "sunset": "21h09",
+      "twilight": "21h55",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1754315818,
+  "code": "EKKS",
+  "date": "2025-08-04",
+  "devices": [
+    {
+      "address": "D022D6",
+      "aircraft": "SF-25",
+      "aircraft_type": 1,
+      "competition": "KG",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XKG",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 2205,
+      "max_alt": 631,
+      "max_height": 591,
+      "start": "14h38",
+      "start_q": 27,
+      "start_tsp": 1754311096,
+      "stop": "15h15",
+      "stop_q": 27,
+      "stop_tsp": 1754313301,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKKS"
+  ]
+}

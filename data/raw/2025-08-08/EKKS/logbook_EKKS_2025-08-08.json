@@ -1,0 +1,143 @@
+{
+  "a_day": "Fri",
+  "airfield": {
+    "code": "EKKS",
+    "country": "DK",
+    "elevation": 40,
+    "latlng": [
+      55.25222,
+      12.06278
+    ],
+    "name": "Kongsted",
+    "time_info": {
+      "dawn": "04h48",
+      "noon": "13h17",
+      "sunrise": "05h33",
+      "sunset": "21h01",
+      "twilight": "21h45",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1754689532,
+  "code": "EKKS",
+  "date": "2025-08-08",
+  "devices": [
+    {
+      "address": "D022D6",
+      "aircraft": "SF-25",
+      "aircraft_type": 1,
+      "competition": "KG",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XKG",
+      "tracked": true
+    },
+    {
+      "address": "~E66D99F199",
+      "aircraft": null,
+      "aircraft_type": 0,
+      "competition": null,
+      "db_org": null,
+      "device_type": "U",
+      "identified": false,
+      "registration": null,
+      "tracked": false
+    },
+    {
+      "address": "DD4FE7",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "R2",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XKO",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 5130,
+      "max_alt": 848,
+      "max_height": 808,
+      "start": "13h57",
+      "start_q": 18,
+      "start_tsp": 1754654270,
+      "stop": "15h23",
+      "stop_q": 25,
+      "stop_tsp": 1754659400,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 1007,
+      "max_alt": 502,
+      "max_height": 462,
+      "start": "14h05",
+      "start_q": 31,
+      "start_tsp": 1754654707,
+      "stop": "14h21",
+      "stop_q": 27,
+      "stop_tsp": 1754655714,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 1296,
+      "max_alt": 507,
+      "max_height": 467,
+      "start": "14h29",
+      "start_q": 15,
+      "start_tsp": 1754656149,
+      "stop": "14h50",
+      "stop_q": 27,
+      "stop_tsp": 1754657445,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 885,
+      "max_alt": 464,
+      "max_height": 424,
+      "start": "14h56",
+      "start_delta": 2,
+      "start_q": 36,
+      "start_tsp": 1754657766,
+      "stop": "15h10",
+      "stop_q": 27,
+      "stop_tsp": 1754658651,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 2,
+      "duration": 7694,
+      "max_alt": 464,
+      "max_height": 424,
+      "start": "16h57",
+      "start_delta": 622,
+      "start_q": 27,
+      "start_tsp": 1754665060,
+      "stop": "19h05",
+      "stop_q": 25,
+      "stop_tsp": 1754672754,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKSL",
+    "EKKS"
+  ]
+}

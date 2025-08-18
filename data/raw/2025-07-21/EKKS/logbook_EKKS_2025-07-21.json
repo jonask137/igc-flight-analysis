@@ -1,0 +1,28 @@
+{
+  "a_day": "Mon",
+  "airfield": {
+    "code": "EKKS",
+    "country": "DK",
+    "elevation": 40,
+    "latlng": [
+      55.25222,
+      12.06278
+    ],
+    "name": "Kongsted",
+    "time_info": {
+      "dawn": "04h10",
+      "noon": "13h18",
+      "sunrise": "05h01",
+      "sunset": "21h35",
+      "twilight": "22h25",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1753078356,
+  "code": "EKKS",
+  "date": "2025-07-21",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

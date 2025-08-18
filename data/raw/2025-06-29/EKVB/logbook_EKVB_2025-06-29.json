@@ -1,0 +1,174 @@
+{
+  "a_day": "Sun",
+  "airfield": {
+    "code": "EKVB",
+    "country": "DK",
+    "elevation": 25,
+    "latlng": [
+      56.40995,
+      9.4094
+    ],
+    "name": "Viborg",
+    "time_info": {
+      "dawn": "03h32",
+      "noon": "13h26",
+      "sunrise": "04h36",
+      "sunset": "22h15",
+      "twilight": "23h19",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751223610,
+  "code": "EKVB",
+  "date": "2025-06-29",
+  "devices": [
+    {
+      "address": "D014F4",
+      "aircraft": "EuroFox",
+      "aircraft_type": 3,
+      "competition": null,
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-9448",
+      "tracked": true
+    },
+    {
+      "address": "D02B8E",
+      "aircraft": "Twin Astir II",
+      "aircraft_type": 1,
+      "competition": "XN",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-ZXN",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 429,
+      "max_alt": 581,
+      "max_height": 556,
+      "start": "11h25",
+      "start_q": 29,
+      "start_tsp": 1751189139,
+      "stop": "11h32",
+      "stop_q": 29,
+      "stop_tsp": 1751189568,
+      "tow": null,
+      "towing": true,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 994,
+      "max_alt": 484,
+      "max_height": 459,
+      "start": "11h25",
+      "start_q": 29,
+      "start_tsp": 1751189140,
+      "stop": "11h42",
+      "stop_q": 29,
+      "stop_tsp": 1751190134,
+      "tow": 0,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 502,
+      "max_alt": 651,
+      "max_height": 626,
+      "start": "11h58",
+      "start_q": 29,
+      "start_tsp": 1751191089,
+      "stop": "12h06",
+      "stop_q": 29,
+      "stop_tsp": 1751191591,
+      "tow": null,
+      "towing": true,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 1060,
+      "max_alt": 587,
+      "max_height": 562,
+      "start": "11h58",
+      "start_q": 29,
+      "start_tsp": 1751191093,
+      "stop": "12h15",
+      "stop_q": 29,
+      "stop_tsp": 1751192153,
+      "tow": 2,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 602,
+      "max_alt": 685,
+      "max_height": 660,
+      "start": "12h28",
+      "start_q": 29,
+      "start_tsp": 1751192929,
+      "stop": "12h38",
+      "stop_q": 29,
+      "stop_tsp": 1751193531,
+      "tow": null,
+      "towing": true,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 1639,
+      "max_alt": 560,
+      "max_height": 535,
+      "start": "12h28",
+      "start_q": 29,
+      "start_tsp": 1751192929,
+      "stop": "12h56",
+      "stop_q": 29,
+      "stop_tsp": 1751194568,
+      "tow": 4,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 564,
+      "max_alt": 707,
+      "max_height": 682,
+      "start": "13h09",
+      "start_q": 29,
+      "start_tsp": 1751195367,
+      "stop": "13h18",
+      "stop_q": 29,
+      "stop_tsp": 1751195931,
+      "tow": null,
+      "towing": true,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 2902,
+      "max_alt": 382,
+      "max_height": 357,
+      "start": "13h09",
+      "start_q": 29,
+      "start_tsp": 1751195368,
+      "stop": "13h57",
+      "stop_q": 29,
+      "stop_tsp": 1751198270,
+      "tow": 6,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKVB"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "a_day": "Mon",
+  "airfield": {
+    "code": "EKAB",
+    "country": "DK",
+    "elevation": 37,
+    "latlng": [
+      56.01195,
+      9.0125
+    ],
+    "name": "Arnborg",
+    "time_info": {
+      "dawn": "04h15",
+      "noon": "13h30",
+      "sunrise": "05h09",
+      "sunset": "21h51",
+      "twilight": "22h44",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1753078355,
+  "code": "EKAB",
+  "date": "2025-07-21",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

@@ -1,0 +1,99 @@
+{
+  "a_day": "Fri",
+  "airfield": {
+    "code": "EKSL",
+    "country": "DK",
+    "elevation": 34,
+    "latlng": [
+      55.45112,
+      11.63805
+    ],
+    "name": "Slaglille",
+    "time_info": {
+      "dawn": "04h49",
+      "noon": "13h19",
+      "sunrise": "05h33",
+      "sunset": "21h03",
+      "twilight": "21h48",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1754689533,
+  "code": "EKSL",
+  "date": "2025-08-08",
+  "devices": [
+    {
+      "address": "45B702",
+      "aircraft": "HK36 Super Dimona",
+      "aircraft_type": 1,
+      "competition": "MB",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-MXB",
+      "tracked": true
+    },
+    {
+      "address": "45E2B3",
+      "aircraft": "DG-800",
+      "aircraft_type": 1,
+      "competition": "D",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XUS",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": null,
+      "max_alt": null,
+      "max_height": null,
+      "start": null,
+      "start_q": null,
+      "start_tsp": null,
+      "stop": "13h50",
+      "stop_q": 26,
+      "stop_tsp": 1754653846,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 8502,
+      "max_alt": 1269,
+      "max_height": 1235,
+      "start": "14h24",
+      "start_q": 27,
+      "start_tsp": 1754655884,
+      "stop": "16h46",
+      "stop_q": 27,
+      "stop_tsp": 1754664386,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 3111,
+      "max_alt": 577,
+      "max_height": 543,
+      "start": "14h32",
+      "start_q": 27,
+      "start_tsp": 1754656336,
+      "stop": "15h24",
+      "stop_q": 27,
+      "stop_tsp": 1754659447,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKSL"
+  ]
+}

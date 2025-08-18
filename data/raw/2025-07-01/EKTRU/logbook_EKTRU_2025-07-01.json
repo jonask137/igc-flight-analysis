@@ -1,0 +1,59 @@
+{
+  "a_day": "Tue",
+  "airfield": {
+    "code": "EKTRU",
+    "country": "DK",
+    "elevation": 67,
+    "latlng": [
+      56.17805,
+      10.07805
+    ],
+    "name": "True",
+    "time_info": {
+      "dawn": "03h35",
+      "noon": "13h24",
+      "sunrise": "04h37",
+      "sunset": "22h10",
+      "twilight": "23h12",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1751404430,
+  "code": "EKTRU",
+  "date": "2025-07-01",
+  "devices": [
+    {
+      "address": "DD052E",
+      "aircraft": "EC 135",
+      "aircraft_type": 4,
+      "competition": "NLA",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "LN-OOV",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": null,
+      "max_alt": null,
+      "max_height": null,
+      "start": null,
+      "start_q": null,
+      "start_tsp": null,
+      "stop": "13h41",
+      "stop_delta": 17,
+      "stop_q": 30,
+      "stop_tsp": 1751370068,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    }
+  ],
+  "rnames": [
+    "EKAS"
+  ]
+}

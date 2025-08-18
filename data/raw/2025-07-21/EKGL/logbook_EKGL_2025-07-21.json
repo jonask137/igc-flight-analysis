@@ -1,0 +1,28 @@
+{
+  "a_day": "Mon",
+  "airfield": {
+    "code": "EKGL",
+    "country": "DK",
+    "elevation": 16,
+    "latlng": [
+      55.88388,
+      12.22805
+    ],
+    "name": "Gorlose",
+    "time_info": {
+      "dawn": "04h04",
+      "noon": "13h18",
+      "sunrise": "04h56",
+      "sunset": "21h38",
+      "twilight": "22h30",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1753078355,
+  "code": "EKGL",
+  "date": "2025-07-21",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

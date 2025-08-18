@@ -1,0 +1,28 @@
+{
+  "a_day": "Sun",
+  "airfield": {
+    "code": "EKFRE",
+    "country": "DK",
+    "elevation": 1,
+    "latlng": [
+      55.85278,
+      12.0725
+    ],
+    "name": "Frederikssund-Nord",
+    "time_info": {
+      "dawn": "04h49",
+      "noon": "13h17",
+      "sunrise": "05h34",
+      "sunset": "20h59",
+      "twilight": "21h43",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1754851598,
+  "code": "EKFRE",
+  "date": "2025-08-10",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

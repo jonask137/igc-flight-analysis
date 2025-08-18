@@ -8,6 +8,9 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from db.models import Base, AirfieldReport, Device, Flight, IGCFile, IngestionLog
 
+#### NOTE:
+# Hvis de ikke har en afslutning lægges de ikke ind i databasen. Vi så d. 4 August at mange piloter landede ude til SAC. Disse vil ikke blive indlæst. Vi skal finde en måde at håndtere disse på.
+
 # Parse arguments for development purposes
 parser = argparse.ArgumentParser(description="Ingest flight data into the database.")
 parser.add_argument("--start-date", type=str, help="Specify the start date (YYYY-MM-DD).")

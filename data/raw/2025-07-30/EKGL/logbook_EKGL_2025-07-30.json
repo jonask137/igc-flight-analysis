@@ -1,0 +1,141 @@
+{
+  "a_day": "Wed",
+  "airfield": {
+    "code": "EKGL",
+    "country": "DK",
+    "elevation": 16,
+    "latlng": [
+      55.88388,
+      12.22805
+    ],
+    "name": "Gorlose",
+    "time_info": {
+      "dawn": "04h23",
+      "noon": "13h18",
+      "sunrise": "05h12",
+      "sunset": "21h22",
+      "twilight": "22h10",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1753890404,
+  "code": "EKGL",
+  "date": "2025-07-30",
+  "devices": [
+    {
+      "address": "458F30",
+      "aircraft": "PA-25 Pawnee",
+      "aircraft_type": 2,
+      "competition": "YP",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-CYP",
+      "tracked": true
+    },
+    {
+      "address": "45E169",
+      "aircraft": "ASK-21",
+      "aircraft_type": 1,
+      "competition": "KI",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-XKI",
+      "tracked": true
+    },
+    {
+      "address": "DDE64B",
+      "aircraft": "H36 Dimona",
+      "aircraft_type": 1,
+      "competition": "FX",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-NFX",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 451,
+      "max_alt": 530,
+      "max_height": 514,
+      "start": "16h39",
+      "start_q": 28,
+      "start_tsp": 1753886359,
+      "stop": "16h46",
+      "stop_q": 28,
+      "stop_tsp": 1753886810,
+      "tow": null,
+      "towing": true,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 1692,
+      "max_alt": 882,
+      "max_height": 866,
+      "start": "16h39",
+      "start_q": 28,
+      "start_tsp": 1753886359,
+      "stop": "17h07",
+      "stop_q": 28,
+      "stop_tsp": 1753888051,
+      "tow": 0,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 0,
+      "duration": 367,
+      "max_alt": 675,
+      "max_height": 659,
+      "start": "17h25",
+      "start_q": 28,
+      "start_tsp": 1753889106,
+      "stop": "17h31",
+      "stop_q": 28,
+      "stop_tsp": 1753889473,
+      "tow": null,
+      "towing": true,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 1288,
+      "max_alt": 687,
+      "max_height": 671,
+      "start": "17h25",
+      "start_q": 28,
+      "start_tsp": 1753889107,
+      "stop": "17h46",
+      "stop_q": 28,
+      "stop_tsp": 1753890395,
+      "tow": 2,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 2,
+      "duration": null,
+      "duration_expected": 280,
+      "max_alt": null,
+      "max_height": null,
+      "start": "17h42",
+      "start_q": 9,
+      "start_tsp": 1753890124,
+      "stop": null,
+      "stop_q": null,
+      "stop_tsp": null,
+      "tow": null,
+      "towing": false,
+      "warn": true
+    }
+  ],
+  "rnames": [
+    "EKGL"
+  ]
+}
