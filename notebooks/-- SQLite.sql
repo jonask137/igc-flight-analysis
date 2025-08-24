@@ -22,7 +22,9 @@
 --         GROUP BY device_address, start_tsp, stop_tsp
 --         )
 
-delete from airfield_reports;
-delete from devices;
-delete from flights;
-delete from igc_files;
+-- delete from airfield_reports;
+-- delete from devices;
+-- delete from flights;
+-- delete from igc_files;
+
+SELECT DISTINCT airfield_reports.date AS airfield_reports_date FROM airfield_reports ORDER BY airfield_reports.date DESC

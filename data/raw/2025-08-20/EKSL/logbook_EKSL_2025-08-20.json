@@ -1,0 +1,163 @@
+{
+  "a_day": "Wed",
+  "airfield": {
+    "code": "EKSL",
+    "country": "DK",
+    "elevation": 34,
+    "latlng": [
+      55.45112,
+      11.63805
+    ],
+    "name": "Slaglille",
+    "time_info": {
+      "dawn": "05h15",
+      "noon": "13h17",
+      "sunrise": "05h56",
+      "sunset": "20h36",
+      "twilight": "21h17",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1755707654,
+  "code": "EKSL",
+  "date": "2025-08-20",
+  "devices": [
+    {
+      "address": "45F02A",
+      "aircraft": "WT9 Dynamic",
+      "aircraft_type": 3,
+      "competition": null,
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-9397",
+      "tracked": true
+    },
+    {
+      "address": "458F14",
+      "aircraft": "Ventus 2ct",
+      "aircraft_type": 1,
+      "competition": "CT",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-CXT",
+      "tracked": true
+    },
+    {
+      "address": "45E2B3",
+      "aircraft": "DG-800",
+      "aircraft_type": 1,
+      "competition": "D",
+      "db_org": "OGN",
+      "device_type": "F",
+      "identified": true,
+      "registration": "OY-XUS",
+      "tracked": true
+    },
+    {
+      "address": "3E76AD",
+      "aircraft": "DG-808 B",
+      "aircraft_type": 1,
+      "competition": "DH",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "D-KKDH",
+      "tracked": true
+    },
+    {
+      "address": "45B702",
+      "aircraft": "HK36 Super Dimona",
+      "aircraft_type": 1,
+      "competition": "MB",
+      "db_org": "OGN",
+      "device_type": "I",
+      "identified": true,
+      "registration": "OY-MXB",
+      "tracked": true
+    }
+  ],
+  "flights": [
+    {
+      "device": 0,
+      "duration": 3721,
+      "max_alt": 1399,
+      "max_height": 1365,
+      "start": "09h02",
+      "start_q": 9,
+      "start_tsp": 1755673349,
+      "stop": "10h04",
+      "stop_code": "EKAB",
+      "stop_q": null,
+      "stop_tsp": 1755677070,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 1,
+      "duration": 14623,
+      "max_alt": 1734,
+      "max_height": 1700,
+      "start": "12h00",
+      "start_q": 21,
+      "start_tsp": 1755684001,
+      "stop": "16h03",
+      "stop_q": 27,
+      "stop_tsp": 1755698624,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 2,
+      "duration": 12393,
+      "max_alt": 1766,
+      "max_height": 1732,
+      "start": "12h13",
+      "start_q": 7,
+      "start_tsp": 1755684791,
+      "stop": "15h39",
+      "stop_q": 27,
+      "stop_tsp": 1755697184,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 3,
+      "duration": 13530,
+      "max_alt": 1854,
+      "max_height": 1820,
+      "start": "13h01",
+      "start_q": 8,
+      "start_tsp": 1755687715,
+      "stop": "16h47",
+      "stop_q": 27,
+      "stop_tsp": 1755701245,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    },
+    {
+      "device": 4,
+      "duration": null,
+      "max_alt": null,
+      "max_height": null,
+      "start": null,
+      "start_q": null,
+      "start_tsp": null,
+      "stop": "13h04",
+      "stop_q": 9,
+      "stop_tsp": 1755687846,
+      "tow": null,
+      "towing": false,
+      "warn": false
+    }
+  ],
+  "rnames": [
+    "EKSL"
+  ]
+}

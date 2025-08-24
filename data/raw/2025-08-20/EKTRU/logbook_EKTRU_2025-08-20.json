@@ -1,0 +1,28 @@
+{
+  "a_day": "Wed",
+  "airfield": {
+    "code": "EKTRU",
+    "country": "DK",
+    "elevation": 67,
+    "latlng": [
+      56.17805,
+      10.07805
+    ],
+    "name": "True",
+    "time_info": {
+      "dawn": "05h18",
+      "noon": "13h23",
+      "sunrise": "06h00",
+      "sunset": "20h45",
+      "twilight": "21h27",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1755707650,
+  "code": "EKTRU",
+  "date": "2025-08-20",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}

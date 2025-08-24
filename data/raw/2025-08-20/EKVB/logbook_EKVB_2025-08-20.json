@@ -1,0 +1,28 @@
+{
+  "a_day": "Wed",
+  "airfield": {
+    "code": "EKVB",
+    "country": "DK",
+    "elevation": 25,
+    "latlng": [
+      56.40995,
+      9.4094
+    ],
+    "name": "Viborg",
+    "time_info": {
+      "dawn": "05h19",
+      "noon": "13h25",
+      "sunrise": "06h02",
+      "sunset": "20h48",
+      "twilight": "21h30",
+      "tz_name": "Europe/Copenhagen",
+      "tz_offset": "CEST+0200"
+    }
+  },
+  "call_tsp": 1755707654,
+  "code": "EKVB",
+  "date": "2025-08-20",
+  "devices": [],
+  "flights": [],
+  "rnames": []
+}
