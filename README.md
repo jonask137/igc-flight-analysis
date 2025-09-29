@@ -83,4 +83,6 @@ Basic unit tests are in tests/. To run:
 
 - Create dbt project for prepping the data for analysis. https://docs.getdbt.com/docs/core/connect-data-platform/sqlite-setup
 
+- Add github actions to trigger the scraper and ingest jobs
+
 
